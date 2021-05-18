@@ -1,0 +1,9 @@
+class Solution:
+    def rotate(self, nums, k):
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        for i in range(k):
+            a = nums.pop()
+            nums.insert(0,a)
+        return nums
