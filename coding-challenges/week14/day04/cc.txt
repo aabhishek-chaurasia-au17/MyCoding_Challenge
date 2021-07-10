@@ -1,0 +1,83 @@
+Question 1. Write short note on CPU scheduling algorithms
+
+What is CPU Scheduling?
+CPU Scheduling is a process of determining which process will own 
+CPU for execution while another process is on hold. The main task 
+of CPU scheduling is to make sure that whenever the CPU remains
+idle, the OS at least select one of the processes available in 
+the ready queue for execution. The selection process will be
+carried out by the CPU scheduler. It selects one of the processes
+in memory that are ready for execution.
+
+Types of CPU Scheduling
+Here are two kinds of Scheduling methods:
+
+1)Preemptive Scheduling
+2)Non-Preemptive Scheduling
+
+
+Important CPU scheduling Terminologies
+Burst Time/Execution Time: It is a time required by the process to
+complete execution. It is also called running time.
+
+Arrival Time: when a process enters in a ready state
+
+Finish Time: when process complete and exit from a system
+
+Multiprogramming: A number of programs which can be present in 
+memory at the same time.
+
+Jobs: It is a type of program without any kind of user interaction.
+
+User: It is a kind of program having user interaction.
+
+Process: It is the reference that is used for both job and user.
+
+CPU/IO burst cycle: Characterizes process execution, which 
+alternates between CPU and I/O activity. CPU times are usually 
+shorter than the time of I/O.
+
+Question 2. What is preemptive vs non preemptive scheduling algos
+
+PREEMPTIVE SCHEDULING: is a CPU scheduling technique that works by 
+dividing time slots of CPU to a given process. The time slot given
+might be able to complete the whole process or might not be able 
+to it. When the burst time of the process is greater than CPU 
+cycle, it is placed back into the ready queue and will execute in
+the next chance. This scheduling is used when the process switch 
+to ready state.
+
+Algorithms that are backed by preemptive Scheduling are round-robin (RR)
+,priority, SRTF (shortest remaining time first).
+
+NON-PREEMPTIVE SCHEDULING : is a CPU scheduling technique the 
+process takes the resource (CPU time) and holds it till the process
+gets terminated or is pushed to the waiting state. No process is 
+interrupted until it is completed, and after that processor 
+switches to another process.
+
+Algorithms that are based on non-preemptive Scheduling are 
+non-preemptive priority, and shortest Job first.
+
+Question 3. Write the best and/or practical scheduling algo, with reason ?
+FCFS
+	First Come First Serve (FCFS) is an operating system scheduling
+    algorithm that automatically executes queued requests and processes 
+    in order of their arrival. It is the easiest and simplest CPU 
+    scheduling algorithm. In this type of algorithm, processes which
+    requests the CPU first get the CPU allocation first. This is 
+    managed with a FIFO queue. The full form of FCFS is First Come 
+    First Serve.
+	
+SJF
+	Shortest Job First (SJF) is an algorithm in which the process
+    having the smallest execution time is chosen for the next execution.
+    This scheduling method can be preemptive or non-preemptive. 
+    It significantly reduces the average waiting time for other processes
+    awaiting execution. The full form of SJF is Shortest Job First.
+
+Round Robin
+	The name of this algorithm comes from the round-robin principle,
+    where each person gets an equal share of something in turns. 
+    It is the oldest, simplest scheduling algorithm, which is mostly
+    used for multitasking.
