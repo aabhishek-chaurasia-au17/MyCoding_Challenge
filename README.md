@@ -3,5 +3,5 @@ AttainU CC
 
 
 <div align="center">
-    <a href="#javascript-modern-interview-code-challenges-by-topic"><img src="assets/my.png" alt="banner" /></a>
+    <a href="code-challenges-by-topic"><img src="assets/my.jpg" alt="banner" /></a>
 </div>
