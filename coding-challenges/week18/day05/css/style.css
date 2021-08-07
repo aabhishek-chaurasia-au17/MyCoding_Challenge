@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: aliceblue;
+}
+
+.center{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.default-btn{
+    padding: 12px;
+    margin:10px 5px;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    color: gray;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover{ 
+    transform: scale(1.2);
+    transition: all ease-in 0.5s
+}
+
+.primary-btn{
+    padding: 12px;
+    margin:10px 3px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.success-btn{
+    padding: 12px;
+    margin:10px 3px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.info-btn{
+    padding: 12px;
+    margin:10px 3px;
+    border: none;
+    border-radius: 5px;
+    background-color: #17a2b8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.warning-btn{
+    padding: 12px;
+    margin:10px 3px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc107;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.danger-btn{
+    padding: 12px;
+    margin:10px 3px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

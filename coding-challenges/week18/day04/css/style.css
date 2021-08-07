@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-box{
+    width: 100%;
+    float: left;
+    border: solid 1px steelblue;
+    padding: 20px;
+}
+
+.user-top{
+    width: 100%;
+    text-align: center;
+}
+
+.user-top img{
+    width: 80px;
+    height: 80px;   
+    border-radius: 50%;
+}
+
+.about-box{
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-box p{
+    color: cornflowerblue;
+    line-height: 20px;
+}
+
+.about-box ul li{ color: cornflowerblue; line-height: 25px;}
