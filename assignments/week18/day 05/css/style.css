@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main{
+    width: 100%;
+    border-top: solid 1px gray;
+    margin: 5px 0;
+}
+
+.col-1{
+    margin-top: 5px;
+    background: rgb(243, 242, 242);
+    padding: 20px 30px 10px  30px;
+    border-radius: 5px;
+}
+
+.col-1 h1{
+    text-align: center;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.row-1{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.row-1 h2{
+    font-weight: normal;
+    font-size: 25px;
+    color: rgb(68, 68, 68);
+    margin:20px 0;
+}
+
+.row-1 h2 span{
+    background-color: rgb(17, 207, 90);
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    margin-right: 5px;
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+}
+
+.row-1 label{
+    width: 100%;
+    font-size: 20px;
+    color: rgb(97, 96, 96);
+    
+}
+
+.row-1 input[type=text] , [type=email] , [type=password]{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    height: 50px;
+    background-color: #E7E9EB;
+    border: 0.5px double rgb(206, 206, 206);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.row-1 input[type=radio]{
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+
+.area{
+    width: 100%;
+    height: 60px;
+    background-color: #E7E9EB;
+    margin-top: 10px;
+    border: 0.5px double rgb(206, 206, 206);
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.select-bar{
+    width: 100%;
+    height: 45px;
+    background-color: #E7E9EB;
+    margin-top: 10px;
+    border: 0.5px double rgb(206, 206, 206);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.check{
+   width: 100%;
+}
+
+.check ul li{
+    list-style: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.submit-btn{
+    width: 100%;
+    margin: 30px 0 0 0;
+    font-size: 25px;
+    padding-left: 4px;
+    height: 45px;
+    background-color: rgb(17, 207, 90);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}

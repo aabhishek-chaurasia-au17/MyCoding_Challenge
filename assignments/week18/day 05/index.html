@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <section class="main">
+            <form action="">
+                <div class="col-1">
+                    <h1>Sign Up</h1>
+                    <div class="row-1">
+                        <h2><span>1</span> Your Basic Info</h2>
+                        <label for="names">Name : </label>
+                        <div><input id="names" type="text"></div>
+                    </div>
+                    <div class="row-1">
+                        <label for="email">Email : </label>
+                        <div><input id="email" type="email" required></div>
+                    </div>
+                    <div class="row-1">
+                        <label for="Password">Password : </label>
+                        <div><input name="password" type="password" required></div>
+                    </div>
+                    <div class="row-1">
+                        <label for="age">Age : </label>
+                        <div><input type="radio" name="age" id="age"> Uder : 13</div>
+                        <div><input type="radio" name="age" id="age"> Over : 13</div>
+                    </div>
+
+                    <div class="row-1">
+                        <h2><span>2</span> Your Profile </h2>
+                        <label for="Bio">Bio :</label>
+                        <div><textarea id="Bio" name="" class="area" cols="0" rows="4"></textarea></div>
+                    </div>
+
+                    <div class="row-1">
+                        <label for="role">Job Role :</label>
+                        <div>
+                            <select class="select-bar" id="role">
+
+                                <optgroup label="Web">
+
+                                    <option value="Front-End">Front-End Developer</option>
+                                    <option value="PHP">PHP Developer</option>
+                                    <option value="Python">Python Developer</option>
+                                    <option value="Rails">Rails Developer</option>
+                                    <option value="Designer">Web Designer</option>
+                                    <option value="Wordpress">Wordpress Developer</option>
+                                </optgroup>
+
+                                <optgroup label="Mobaile">
+                                    <option value="Android">Android Developer</option>
+                                    <option value="IOS">IOS Developer</option>
+                                    <option value="Mobile">Mobile Designer</option>
+                                </optgroup>
+
+                                <optgroup label="Business">
+
+                                    <option value="Business">Business Owner</option>
+                                    <option value="Freelancer">Freelancer</option>
+                                </optgroup>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row-1">
+                        <label for="Interests">Interests:</label>
+                        <div class="check">
+                            <ul>
+                                <li><input type="checkbox" name="" id="Interests"> Development</li>
+                                <li><input type="checkbox" name="" id="Interests"> Design</li>
+                                <li><input type="checkbox" name="" id="Interests"> Business</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Sign Up</button>
+
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
