@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: palegoldenrod;
+}   
+
+a{  
+    margin: 5px;
+    padding: 13px 20px;
+    border: solid 1px lightgray;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+a:hover{
+    transform: scale(1.5);
+    transition: all ease-in 0.5s;
+}
+
+.Primary{
+    background-color: #007bff;
+    color: white;
+}
+
+.Success{
+    background-color: #28a745;
+    color: white;
+}
+
+.Info{
+    background-color: #17a2b8;
+    color: white;
+}
+
+.Warning{
+    background-color: #ffc107;
+    color: white;
+}
+
+.Danger{
+    background-color: #dc3545;
+    color: white;
+}
