@@ -1,0 +1,60 @@
+
+
+.wrap-container{
+    width: 963px;
+    margin: 0 auto;
+}
+
+.my-avtar{
+    width: 150px;
+    height: 150px;
+}
+
+.profile_btn{
+    border: 1px solid #dbdbdb;
+    height: 30px;
+    color: #262626;
+    padding: none;
+    line-height: 15px;
+}
+
+.my-follow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 300px; 
+    cursor: pointer;
+}
+
+.fit-image:hover{
+    -webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+    transition: all .5s ease-in-out;
+}
+
+.icon_position{
+    position: relative;
+}
+
+.icon_inner{
+    color: #dbdbdb;
+    position: absolute; 
+    right: 10px;
+    z-index: 999
+}
+
+@media screen and (max-width: 350px){
+    .wrap-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .wrap-container{
+        width: 100%;
+    }
+}
