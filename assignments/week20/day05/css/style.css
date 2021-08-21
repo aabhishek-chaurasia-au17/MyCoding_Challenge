@@ -1,2 +1,12 @@
+img {
+  width: 100%;
+}
 
-/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
+.col-photo {
+  opacity: 0.9;
+}
+.col-photo:hover {
+  opacity: 1;
+  transition: 0.8s all ease-in;
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
