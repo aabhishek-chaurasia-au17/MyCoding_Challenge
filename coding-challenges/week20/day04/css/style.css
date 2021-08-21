@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  background-color: #4b53d9;
+  color: white;
+}
+.header h5 {
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 7px;
+  padding-bottom: 0px;
+}
+.header label {
+  font-size: 10px;
+  padding: 0px 0px 5px 0;
+}
+.header [type=text] {
+  width: 99%;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  padding-left: 10px;
+  background-color: #343b97;
+  color: #757178;
+  outline: none;
+}
+
+.avtar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.user-text h5 {
+  font-size: 20px;
+  color: #000;
+  padding-top: 2px;
+  padding-bottom: 0px !important;
+}
+.user-text p {
+  font-size: 13px;
+  color: #000;
+  padding-top: 2px;
+  padding-bottom: 0px !important;
+}
+
+.overflow-auto {
+  height: 500px;
+}/*# sourceMappingURL=style.css.map */
