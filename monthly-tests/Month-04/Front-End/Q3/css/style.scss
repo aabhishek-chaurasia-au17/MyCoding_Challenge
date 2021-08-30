@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    background-image: url('../images/bg2.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.logo-text{
+    font-size: 45px;
+
+}
+
+.Search-btn{
+    padding: 13px 28px;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.sing-up-btn{
+    padding: 13px 28px;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+}
+
+.nav-b-input{
+    border-radius: 0;
+}
+
+.bottum-section{
+
+    h1{
+        font-weight: 600;
+        color: #fff;
+        font-size: 100px;
+    }
+
+    p{
+        color: #fff;
+        padding: 0 100px;
+    } 
+
+    h3{
+        font-weight: 500;
+        color: #fff;
+        font-size: 55px;
+        padding: 0 80px;
+    }
+}
+
+
+.btn-l{
+    background: #FFC329;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 40%);
+    color: #000000;
+}
+
+.btn-r{
+    background: #cb3837;
+    color: #FFFFFF;
+    border: solid 1px #fff;
+}
+
+.bring-section h4{
+    font-size: xx-large;
+    padding: 0 50px;
+    font-weight: 600;
+}
+
+.love-section{
+    background: url("../images/bg2.jpg") ;
+    background-position: center center;
+    color: #fff;
+    
+    
+    h4{
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    h2{
+        font-size: 35px;
+        padding: 0 100px;
+        font-weight: 600;
+    }
+}
+
+
+.footer{
+    strong{
+        font-size: large;
+    }
+
+    a{
+            text-decoration: none;
+            color: gray;
+    }
+
+}
+

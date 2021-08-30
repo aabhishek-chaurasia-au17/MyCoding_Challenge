@@ -1,0 +1,12 @@
+Q6. Explain virtual memory?
+Answer:
+Virtual memory is a feature of an operating system that enables a computer to be able to compensate shortages of physical memory by
+transferring pages of data from random access memory to disk storage.
+
+This process is done temporarily and is designed to work as a combination of RAM and space on the hard disk.
+
+This means that when RAM runs low, virtual memory can move data from it to a space called a paging file. 
+This process allows for RAM to be freed up so that a computer can complete the task.
+
+Occasionally a user might be shown a message that says the virtual memory is running low, 
+this means that either more RAM needs to be added, or the size of the paging file needs to be increased.

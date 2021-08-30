@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine A Prime Number</title>
+</head>
+
+<body>
+    <!-- 1. Ask a number input from the user, and display a message whether that number is
+    prime or not.
+    Ex: 1 is not a prime number | 17 is a prime number -->
+
+    <script>
+        let num = parseInt(prompt("Enter Number"));
+        function isPrime(num) {
+
+            if (num === 2) {
+                return "prime number";
+            } else if (num > 1) {
+                for (var i = 2; i < num; i++) {
+
+                    if (num % i !== 0) {
+                        return "prime number";
+                    } else if (num === i * i) {
+                        return "not a prime number"
+                    } else {
+                        return "not a prime number";
+                    }
+                }
+            } else {
+                return "not a prime number";
+            }
+
+        }
+
+        alert(isPrime(num));
+    </script>
+</body>
+
+</html>

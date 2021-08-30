@@ -1,0 +1,99 @@
+
+body{
+    margin-top: 50px;
+}
+
+.allsideborder{
+    border: #000 solid 5px;
+}
+
+.left-Summary{
+    background: #273238;
+    color: #fff;
+}
+
+.left-Summary .row{
+    margin: 15px -12px;
+}
+
+.left-border{
+    border-right: #fff solid 2px;
+}
+
+.left-Summary h4{
+    padding: 10px 0 10px;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+
+.left-Summary h2 p{
+    font-size: small;
+    color: lightgray;
+}
+
+.left-Summary h3{
+    padding: 10px 0;
+}
+
+.left-bottom {
+    background-color: #F44336;
+}
+
+.left-bottom-inner h2 {
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 0px !important;
+}
+
+.left-bottom-inner h3 {
+    color: #ffffff;
+    font-size: 50px;
+    margin:0px !important;
+    padding: 0px !important;
+}
+
+.left-bottom-inner h4 {
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 0px !important;
+}
+
+.visa-img img{
+    width: 200px;
+    border: solid 3px lightgray;
+    height: 60px;
+}
+
+.card-left {
+    padding: 25px;
+    margin: 0;
+    height: 100%
+}
+
+.left-side-card .pay-card-detail {
+    font-weight: bold
+}
+
+.left-side-card input,
+.left-side-card textarea {
+    padding: 10px 8px 10px 8px;
+    border: none;
+    border: 1px solid lightgrey;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+
+.btn-info {
+    color: #ffffff !important
+}
+
+

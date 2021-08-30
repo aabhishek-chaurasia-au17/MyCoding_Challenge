@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+</head>
+
+<body>
+    <!-- 2. Ask a string input from the user, and display a message if the string entered is
+    palindrome or not. -->
+
+    <script>
+
+        function reverse(str) {
+
+            let rev_str = "";
+            for (let i = str.length - 1; i >= 0; i--) {
+                rev_str += str[i];
+            }
+
+            return rev_str;
+        }
+
+
+        function is_palindrome(str) {
+            reverse_str = reverse(str);
+
+            if (reverse_str === str) {
+                alert("passed string is palindrome ");
+            }
+            else {
+                alert("passed string is not palindrome")
+            }
+        }
+
+        let test = "hellolleh";
+        is_palindrome(test);
+    </script>
+
+
+</body>
+
+</html>
