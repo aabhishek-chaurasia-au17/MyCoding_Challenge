@@ -51,9 +51,7 @@ ICMP Reply: ICMP Reply is used to check whether the destination device is respon
 The core responsibility of the ICMP protocol is to report the problems, not correct them. The responsibility of the correction lies with the sender.
 ICMP can send the messages only to the source, but not to the intermediate routers because the IP datagram carries the addresses of the source and destination but not of the router that it is passed to.
 Transport Layer
-The transport layer is responsible for the reliability, flow control, and correction of data which is being sent over the network.
 
-The two protocols used in the transport layer are User Datagram protocol and Transmission control protocol.
 
 
 User Datagram Protocol (UDP)
@@ -89,22 +87,3 @@ An application layer is the topmost layer in the TCP/IP model.
 It is responsible for handling high-level protocols, issues of representation.
 This layer allows the user to interact with the application.
 When one application layer protocol wants to communicate with another application layer, it forwards its data to the transport layer.
-
-
-There is an ambiguity occurs in the application layer. Every application cannot be placed inside the application layer except those who interact with the communication system. For example: text editor cannot be considered in application layer while web browser using HTTP protocol to interact with the network where HTTP protocol is an application layer protocol.
-
-Following are the main protocols used in the application layer:
-
-HTTP: HTTP stands for Hypertext transfer protocol. This protocol allows us to access the data over the world wide web. It transfers the data in the form of plain text, audio, video. It is known as a Hypertext transfer protocol as it has the efficiency to use in a hypertext environment where there are rapid jumps from one document to another.
-
-SNMP: SNMP stands for Simple Network Management Protocol. It is a framework used for managing the devices on the internet by using the TCP/IP protocol suite.
-
-SMTP: SMTP stands for Simple mail transfer protocol. The TCP/IP protocol that supports the e-mail is known as a Simple mail transfer protocol. This protocol is used to send the data to another e-mail address.
-
-DNS: DNS stands for Domain Name System. An IP address is used to identify the connection of a host to the internet uniquely. But, people prefer to use the names instead of addresses. Therefore, the system that maps the name to the address is known as Domain Name System.
-
-TELNET: It is an abbreviation for Terminal Network. It establishes the connection between the local computer and remote computer in such a way that the local terminal appears to be a terminal at the remote system.
-
-FTP: FTP stands for File Transfer Protocol. FTP is a standard internet protocol used for transmitting the files from one computer to another computer.
-
-
