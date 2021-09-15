@@ -1,0 +1,92 @@
+/* General styling */
+body{
+  font: 17px/1.5 Arial;
+  background: #D8D8D8;
+  padding:0;
+  margin:0;
+}
+
+/* header styles */
+header{
+  background: #0B3B2E;
+  color: white;
+  text-align:center;
+  margin: 0 0 30px 0;
+  padding: 20px;
+  border-bottom: 3px solid white;
+}
+
+/* test block styles */
+section{
+  width: 40%;
+  margin: auto;
+  margin-bottom: 50px;
+  background: white;
+  padding: 20px 0 40px 40px;
+  box-sizing: border-box;
+  font-weight: bold;
+  color: #0B3B2E;
+  font-size: 17px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+}
+ 
+/* input field styles */
+section input{
+  display: block;
+  width: 80%;
+  margin: 20px 0 30px 0;
+  font-size: 17px;
+  padding: 20px;
+  border: 2px solid #D8D8D8;
+  border-radius: 8px;
+  color: #0B3B2E;
+}
+
+/* button and input focus styles */
+section input:focus{
+  outline: 2px solid #0B3B2E;
+}
+
+section button:focus{
+  outline: none;
+}
+
+/* button styles */
+section button{
+  display: block;
+  margin: 20px 0 30px 0;
+  font-size: 17px;
+  padding: 10px;
+  background: #0B3B2E;
+  color: white;
+  border-radius: 7px;
+}
+
+/* answer box styles */
+section #answer-box{
+  display:block;
+  width: 95px;
+  height:40px;
+  border: 2px solid #D8D8D8;
+  border-radius: 8px;
+  padding: 0 20px 0 20px;
+  font-size: 25px;
+  color: #0B3B2E;
+  margin-top: 10px;
+}
+
+/* responsive styles for varying screen widths */
+@media (max-width: 1000px){
+  section{
+    width: 60%;
+
+  }
+}
+
+@media (max-width: 600px){
+  section{
+    width: 90%;
+    padding: 20px 20px 40px 20px;
+  }
+}
