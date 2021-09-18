@@ -1,0 +1,14 @@
+body {
+    background: #DAD299;
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);
+    background: linear-gradient(to right, #B0DAB9, #DAD299);
+}
+
+img {
+    border-radius: 50%;
+    transform: scale(0.7);
+}
+
+.container-fluid {
+    background-color: #f5f4f4;
+}
