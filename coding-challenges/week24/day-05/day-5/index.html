@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section id="filter" class="container border mt-5">
+      <div class="border">Number of questions:</div>
+      <div class="border">
+        <input id="amount" type="number" value="10" />
+      </div>
+      <div class="border">Select Category:</div>
+      <div class="border">
+        <select name="" id="category"></select>
+      </div>
+      <div class="border">Select Difficulty:</div>
+      <div class="border">
+        <select name="" id="difficulty">
+          <option value="Easy">Easy</option>
+          <option value="Medium">Medium</option>
+          <option value="Hard">Hard</option>
+        </select>
+      </div>
+      <div class="border">Select Type:</div>
+      <div class="border">
+        <select name="" id="type">
+          <option value="Multiple">Multiple</option>
+          <option value="boolean">True/False</option>
+          <option value="">Any Type</option>
+        </select>
+      </div>
+      <div class="border">Select Encoding:</div>
+      <div class="border">
+        <select name="" id="">
+          <option value="Default Encoding">Default Encoding</option>
+        </select>
+      </div>
+      <div id="submit_btn" class="d-flex justify-content-end">
+        <button>Submit</button>
+      </div>
+    </section>
+
+    <section id="questions_section" class="container border mt-5 d-none">
+      <section class="border">
+        <div class="border">
+          <h1>Learning Js Properly: Project #1 - Dynamic Quiz</h1>
+        </div>
+        <div>
+          <h2 id="question_text"></h2>
+        </div>
+        <div id="question_actual"></div>
+        <div>
+          <input type="radio" value="ans1" />
+          <label for="">ans1</label><br />
+        </div>
+        <div class="d-flex justify-content-end">
+          <button>Next</button>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
