@@ -1,0 +1,73 @@
+
+body {
+  background: #f5f5f5;
+  color: #303030;
+}
+
+.form-control {
+  border-color: #8fdfb8 !important;
+}
+
+.feedhide {
+  display: none;
+}
+
+.delete-item {
+  color: #dd2424;
+}
+
+.delete-item:hover {
+  color: #dd2424;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.visibility {
+  opacity: 0.5;
+}
+
+.showItem {
+  display: block;
+}
+
+.edit-item {
+  color: #11b5e4;
+}
+
+.edit-item:hover {
+  color: #11b5e4;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.complete-item {
+  color: #8cd6b2;
+}
+
+.complete-item:hover {
+  color: #8cd6b2;
+}
+
+
+.btn_green_cr {
+  border-color: #8cd6b2;
+  background: transparent;
+  color: #8cd6b2;
+}
+
+.btn_green_cr:hover {
+  background: #8cd6b2;
+  color: #303030;
+}
+
