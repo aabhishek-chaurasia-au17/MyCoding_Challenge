@@ -1,0 +1,34 @@
+.max-height {
+    max-width: 100vw;
+    min-height: 97vh;
+}
+
+
+body {
+    background: #b09e99;
+}
+
+.inner-container {
+    background: #fff;
+}
+
+.author {
+    color: #64b6ac;
+}
+
+
+#btn-random {
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    color: white !important;
+    background: #64b9af !important;
+    border-color: #64b9af !important;
+}
+
+
+#btn-random:hover {
+    background: #b1a09b !important;
+    border-color: #b1a09b !important;
+    color: #333333 !important;
+}
