@@ -1,0 +1,17 @@
+{
+  "name": "queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "queue_heroku1.js",
+  "scripts": {
+    "start": "node queue_heroku1.js",
+    "dev": "nodemon queue_heroku1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2"
+  }
+}
