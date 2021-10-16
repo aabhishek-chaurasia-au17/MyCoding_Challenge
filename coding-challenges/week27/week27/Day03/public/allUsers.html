@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User SignUp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="parent" class="d-flex flex-wrap">
+        </div>
+    </div>
+    <script>
+        async function getData() {
+            let parent = document.getElementById("parent")
+            let response = await fetch('/users')
+            let data = await response.json()
+            if (data.length != 0) {
+                data.forEach(item => {
+                    let card = document.createElement('div')
+                    card.setAttribute('class', "card m-4")
+                    card.style.width = "250px"
+                    card.innerHTML = `
+                    <img class="userImage rounded-circle m-3" src="${item.imageUrl}" alt="">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="small text-muted">Name</div>
+                            <div class="">${item.name}</div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="small text-muted">Email</div>
+                            <div class="">${item.email}</div>
+                        </li>
+                    </ul>`
+                    parent.appendChild(card)
+                })
+            } else {
+                parent.innerText = "No User Data Available"
+            }
+        }
+
+        getData()
+    </script>
+</body>
+
+</html>

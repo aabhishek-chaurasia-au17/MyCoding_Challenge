@@ -1,0 +1,24 @@
+{
+  "name": "heroku_w27d01_cc",
+  "version": "1.0.0",
+  "description": "Assigning 3 projects in single file and hosting it on heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sankalp-yadav-au17/heroku-w27d01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sankalp-yadav-au17/heroku-w27d01/issues"
+  },
+  "homepage": "https://github.com/sankalp-yadav-au17/heroku-w27d01#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

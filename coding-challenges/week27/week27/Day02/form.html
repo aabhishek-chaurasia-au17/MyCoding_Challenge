@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+</head>
+<body style="background-color: #edeeec;">
+    <h1 style="margin-left: 150px;">Interview Evaluation Form</h1>
+    <main class="container border border-dark">
+        <div class="text-center m-5">
+            This form should be filled by the HR personal in charge of the interview session
+        </div>
+        <form action="/" method="POST">
+            <section class="my-5 d-flex row justify-content-around ">
+                <div class=" col-4">
+                    <label for="">Title</label><br>
+                    <select name="title" id="" class="col-12">
+                        <option value="Mr.">Mr.</option>
+                        <option value="Ms.">Ms.</option>
+                    </select>
+                </div>
+                <div class="col-4">
+                    <label for="">Candidate's name <span class="text-danger">*</span></label><br>
+                    <input class="col-12" type="text" placeholder="First Name" name="first_name" required>
+                </div>
+                <div class="d-flex col-4 align-items-end ">
+                    <input class="col-12" type="text" placeholder="Last Name" name="last_name">
+                </div>
+            </section>
+            <section class="my-5 d-flex row justify-content-around ">
+                <div class="col-6">
+                    <label for="">Interview Date</label><br>
+                    <input class="col-12" type="date" name="date">
+                </div>
+                <div class="col-6">
+                    <label for="">Time</label><br>
+                    <input class="col-12" type="time" name="time">
+                </div>
+            </section>
+            <section class="my-5 d-flex row justify-content-around ">
+                <div>
+                    <label for="">The position this candidate is comming for</label><br>
+                    <input class="col-12" type="text" name="position">
+                </div>
+            </section>
+            <section class="my-5 d-flex row justify-content-around ">
+                <div>
+                    <label for="">Department</label><br>
+                    <input class="col-12" type="text" name="depart">
+                </div>
+            </section>
+            <section class="mt-5  d-flex row justify-content-around ">
+                <div>
+                    <label for="">Hiring Manager</label><br>
+                    <input class="col-12" type="text" name="manager">
+                </div>
+                <div class="m-1">
+                    <button>Submit</button>
+                </div>
+            </section>
+        </form>
+    <!-- Sankalp Yadav © 2021 -->
+    </main>
+</body>
+</html>

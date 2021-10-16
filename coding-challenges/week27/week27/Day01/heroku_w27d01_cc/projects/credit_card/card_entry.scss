@@ -1,0 +1,165 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #cde0f0;
+
+    form{
+        background-color: #f8f8fa;
+        border-radius: 10px;
+        padding: 20px;
+        width: 600px;
+        box-shadow: 0 10px 15px rgba(0,0,0,.1);
+        padding-top: 160px;
+
+        .inputBox{
+            margin-top:20px;
+
+            span{
+                display: block;
+                padding-bottom: 5px ;
+            }
+            input,select{
+                width: 100%;
+                padding: 10px;
+                border: 1px solid rgba(0,0,0,.3);
+                border-radius: 10px;
+            }
+        }
+        .flexbox{
+            display: flex;
+            gap: 15px;
+            
+            .inputBox{
+                flex:1 1 150px;   
+            }
+        }
+        .submit-btn{
+            width: 100%;
+            background: linear-gradient(45deg, white, blue);
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: .2s linear;
+            border-radius: 10px;
+        }
+        .submit-btn:hover{
+            letter-spacing: 2px;
+            opacity: .8;
+        }
+    }
+
+
+    // for the front
+
+    .card-container{
+        margin-bottom: -150px;
+        position: relative;
+        height: 250px;
+        width: 400px;
+
+        .front{
+            position:absolute;
+            height: 100%;
+            width: 100%; 
+            top: 0;
+            left: 0;
+            border-radius:10px;
+            background: linear-gradient(45deg, white, blue);
+            box-shadow: 0 15px 25px rgba(0,0,0,.3);
+            padding: 20px;
+            transition: transform .4s ease-out;
+            transform:perspective(1000px) rotateY(0deg);
+
+
+            .image{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top:10px; 
+
+                img{
+                    height: 50px;
+                }
+            }
+
+            .card-number-box{
+                padding: 20px 0;
+                font-size: 32px;
+                margin-top: 20px;
+            }
+
+            .flexbox{
+                // border: 1px solid black;
+                display: flex;
+                margin-top: 15px;
+
+                .box{
+                    font-size: 15px;
+                }
+
+                .box:nth-child(1){
+                    margin-right: auto;
+                }
+            }
+        }
+
+        .back{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(45deg, white, blue);
+            border-radius: 10px;
+            padding: 20px 0;
+            text-align: right;
+            box-shadow: 0 15px 25px rgba(0,0,0,.3);
+            transition: transform .4s ease-out;
+            backface-visibility: hidden;
+            transform:perspective(1000px) rotateY(180deg);
+
+            .strip{
+                background-color: black;
+                width: 100%;
+                height: 50px;
+                margin: 10px 0;
+            }
+            
+            .box{
+                padding: 0 20px;
+
+                span{
+                    font-size: 15px;
+                    color: white;
+                }
+                .cvv-box{
+                    background-color: white;
+                    height: 50px;
+                    width: 100%;
+                    padding: 10px;
+                    margin-top: 5px;
+                    border-radius: 10px;
+                }
+
+                img{
+                    margin-top: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}

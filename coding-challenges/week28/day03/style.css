@@ -1,0 +1,31 @@
+body {
+    margin-left: 50%;
+}
+
+#add {
+    color: darkgreen;
+    background-color: #ffffff;
+}
+
+#add:active {
+    background-color:  #2ba748;
+    color: white;
+}
+
+#remove {
+    color: red;
+    background-color: #ffffff;
+}
+
+#remove:active {
+    background-color: #d93648;
+    color: white;
+}
+
+#stack {
+    font-size: 50px;
+}
+
+#invalid {
+    font-size: 50px;
+}

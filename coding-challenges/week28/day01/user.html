@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello dirty fellow</h1>
+    
+    <script>
+        const body = document.getElementsByTagName('body')[0 ]
+        async function getData(){
+            const response = await fetch('http://localhost:3000/signup/all')
+            const data = await response.json()
+
+            data.forEach(rest =>{
+                const div = document.createElement('div')
+                div.innerHTML = `
+                <div>
+                    <div><img width="500px" src="http://localhost:3000/fe4b3f37895b1990360f4fae6f439f58-Screenshot from 2021-09-29 13-01-54.png" alt="logo"></div>
+                    <div>
+                        <h1>Name</h1>
+                        <h3>${rest.name}</h3>
+                    </div>
+                    <div>
+                        <h1>Email</h1>
+                        <h3>${rest.email}</h3>
+                    </div>
+                </div>
+                `
+                body.appendChild(div)
+            })
+        }
+        getData()
+    </script>
+</body>
+</html>
